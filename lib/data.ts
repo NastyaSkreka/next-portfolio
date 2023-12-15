@@ -38,6 +38,9 @@ export const skillsData = [
   "Next.js",
   "Git",
   "Tailwind",
-  "Redux",
+  "Redux(RTK)",
   "Framer Motion",
+  "Webpack", 
+  "Socket.io",
+  
 ] as const;
