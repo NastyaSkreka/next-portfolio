@@ -28,6 +28,8 @@ export default function About() {
         Seeking an opportunity to join a team where I can apply my knowledge, grow, and contribute. My <span className="italic">educational background in Computer Science</span> has provided me with a solid foundation, and I am ready for new challenges, eagerly anticipating opportunities in web development.
         </p>
     </motion.section>
+
+    
   )
 }
 

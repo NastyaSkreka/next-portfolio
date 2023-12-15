@@ -1,4 +1,5 @@
 import About from "@/components/about";
+import Education from "@/components/education";
 import Intro from "@/components/intro";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
@@ -11,7 +12,7 @@ export default function Home() {
       <SectionDivider/>
       <About/>
       <Skills/>
-
+      <Education/>
     </main>
   )
 }
