@@ -2,6 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import thor from "@/public/thor.png"
+import due from "@/public/due.png"
+import store from "@/public/store.png"
 
 export const links = [
   {
@@ -82,3 +85,29 @@ export const educationData = [
         date: "2022",
       },
   ] as const;
+
+  export const projectsData = [
+    {
+      title: "God of war",
+      description:
+        "",
+      tags: ["Webpack", "Html", "Scss", "JavaScript"],
+      imageUrl: thor,
+    },
+    {
+      title: "Due",
+      description:
+        "",
+      tags: ["React", "Framer", "Tailwind"],
+      imageUrl: due,
+     
+    },
+    {
+      title: "Stuff",
+      description:
+        "",
+      tags: ["React", "RTK", "RTKQuery", "styles modules", "axios"],
+      imageUrl: store,
+     
+    },
+] as const;
