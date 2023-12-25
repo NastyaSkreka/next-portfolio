@@ -89,24 +89,27 @@ export const educationData = [
   export const projectsData = [
     {
       title: "God of war",
+      link: "https://ragnar-k.vercel.app/", 
       description:
-        "",
+        "A website for the premiere of a video game, animation done in pure JS, full responsive.",
       tags: ["Webpack", "Html", "Scss", "JavaScript"],
       imageUrl: thor,
     },
     {
       title: "Due",
+      link: "https://due-mu.vercel.app/", 
       description:
-        "",
+        "Multi-page website using react, styled using tailwind and framer-motion animation",
       tags: ["React", "Framer", "Tailwind"],
       imageUrl: due,
      
     },
     {
       title: "Stuff",
+      link: "https://store-seven-mu.vercel.app/", 
       description:
-        "",
-      tags: ["React", "RTK", "RTKQuery", "styles modules", "axios"],
+        "Store with filtering and pagination, you can also select a product, its size and place it in the cart, small registration with the ability to edit user data",
+      tags: ["React", "RTK","RTKQuery", "Styles modules", "Thunk-redux"],
       imageUrl: store,
      
     },
