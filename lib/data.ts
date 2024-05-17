@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import thor from "@/public/thor.png"
 import due from "@/public/due.png"
 import store from "@/public/store.png"
+import chai from "@/public/chai.png"
 
 export const links = [
   {
@@ -34,7 +35,6 @@ export const links = [
 ] as const;
 
 
-
 export const skillsData = [
   "HTML",
   "CSS",
@@ -47,8 +47,13 @@ export const skillsData = [
   "Redux(RTK)",
   "Framer Motion",
   "Webpack", 
+  "Styled component", 
+  "Node.js", 
+  "Express.js", 
+  "Nest.js", 
+  "Prisma",
   "Socket.io",
-  
+  "JWT"
 ] as const;
 
 export const educationData = [
@@ -88,6 +93,14 @@ export const educationData = [
 
   export const projectsData = [
     {
+        title: "Chai store",
+        link: "https://tea-store-ten.vercel.app/", 
+        description:
+          "full stack store with admin panel for selling tea. Still working on it...",
+        tags: ["Next.js", "Nest.js", "Prisma", "RTK", "React Query", "styled-component"],
+        imageUrl: chai,
+      },
+    {
       title: "God of war",
       link: "https://ragnar-k.vercel.app/", 
       description:
@@ -108,7 +121,7 @@ export const educationData = [
       title: "Stuff",
       link: "https://store-seven-mu.vercel.app/", 
       description:
-        "Store with filtering and pagination, you can also select a product, its size and place it in the cart, small registration with the ability to edit user data",
+        "Frontend store",
       tags: ["React", "RTK","RTKQuery", "Styles modules", "Thunk-redux"],
       imageUrl: store,
      

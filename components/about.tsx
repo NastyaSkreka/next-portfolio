@@ -22,7 +22,7 @@ export default function About() {
         I've mastered the <span className="italic">basics of HTML, CSS, and JavaScript.</span> 
         </p >
         <p className="mb-3">
-        Currently, I am actively working with<span className="font-medium"> React and Next.js </span> to build more efficient and dynamic web applications. I engage in personal projects to deepen my skills and stay up-to-date with the latest developments in front-end technologies.
+        Currently, I am actively working with<span className="font-medium"> Next.js and Nest.js</span> to build more efficient and dynamic web applications. I engage in personal projects to deepen my skills and stay up-to-date with the latest developments in front-end technologies.
         </p>
         <p className="mb-3">
         Seeking an opportunity to join a team where I can apply my knowledge, grow, and contribute. My <span className="italic">educational background in Computer Science</span> has provided me with a solid foundation, and I am ready for new challenges, eagerly anticipating opportunities in web development.
